@@ -117,6 +117,8 @@ return array(
 		/*Added providers*/
 		'Rtablada\PackageInstaller\PackageInstallerServiceProvider',
 		'Thujohn\Twitter\TwitterServiceProvider',
+		 'Zizaco\Confide\ConfideServiceProvider',
+		 'Zizaco\Entrust\EntrustServiceProvider',
 
 	),
 
@@ -184,7 +186,9 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 		/*Additions*/
-		'Twitter' => 'Thujohn\Twitter\TwitterFacade'
+		'Twitter' => 'Thujohn\Twitter\TwitterFacade',
+		'Confide'    => 'Zizaco\Confide\ConfideFacade',
+		'Entrust'    => 'Zizaco\Entrust\EntrustFacade',
 
 	),
 
